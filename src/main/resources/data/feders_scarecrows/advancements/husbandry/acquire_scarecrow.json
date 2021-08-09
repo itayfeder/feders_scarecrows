@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "feders_scarecrows:scarecrow"
+    },
+    "title": {
+      "translate": "advancements.husbandry.acquire_scarecrow.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.acquire_scarecrow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "acquire_scarecrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "feders_scarecrows:scarecrow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "acquire_scarecrow"
+    ]
+  ]
+}

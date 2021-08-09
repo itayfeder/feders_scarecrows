@@ -1,0 +1,16 @@
+{
+  "item.feders_scarecrows.scarecrow": "Scarecrow",
+  "entity.feders_scarecrows.scarecrow": "Scarecrow",
+
+  "item.feders_scarecrows.wolf_scarecrow": "Wolf Scarecrow",
+  "entity.feders_scarecrows.wolf_scarecrow": "Wolf Scarecrow",
+
+  "item.feders_scarecrows.ocelot_scarecrow": "Ocelot Scarecrow",
+  "entity.feders_scarecrows.ocelot_scarecrow": "Ocelot Scarecrow",
+
+  "item.feders_scarecrows.guardian_scarecrow": "Guardian Scarecrow",
+  "entity.feders_scarecrows.guardian_scarecrow": "Guardian Scarecrow",
+
+  "advancements.husbandry.acquire_scarecrow.title": "Brain Not Included!",
+  "advancements.husbandry.acquire_scarecrow.description": "Acquire a Scarecrow"
+}
