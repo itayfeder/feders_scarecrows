@@ -6,8 +6,10 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ModModelLayers {
     public static ModelLayerLocation SCARECROW = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "scarecrow"), "scarecrow");
-    public static ModelLayerLocation WOLF_SCARECROW = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "wolf_scarecrow"), "wolf_scarecrow");
-    public static ModelLayerLocation OCELOT_SCARECROW = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "ocelot_scarecrow"), "ocelot_scarecrow");
-    public static ModelLayerLocation GUARDIAN_SCARECROW = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "guardian_scarecrow"), "guardian_scarecrow");
+
+    public static ModelLayerLocation DEFAULT_OUTFIT = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "scarecrow"), "default_outfit");
+    public static ModelLayerLocation WOLF_OUTFIT = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "scarecrow"), "wolf_outfit");
+    public static ModelLayerLocation OCELOT_OUTFIT = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "scarecrow"), "ocelot_outfit");
+    public static ModelLayerLocation GUARDIAN_OUTFIT = new ModelLayerLocation(new ResourceLocation(FedersScarecrowsMod.MOD_ID, "scarecrow"), "guardian_outfit");
 
 }

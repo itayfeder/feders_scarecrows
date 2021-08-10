@@ -36,15 +36,15 @@ public class ScarecrowModel<T extends TemplateScarecrow> extends AgeableListMode
 		partdefinition.addOrReplaceChild("head", CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F), PartPose.offset(0.0F, 4.0F, 0.0F));
 		partdefinition.addOrReplaceChild("body", CubeListBuilder.create()
 						.texOffs(0, 16).addBox(-1.0F, 0.0F, -1.0F, 2.0F, 20.0F, 2.0F)
-						.texOffs(8, 16).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 12.0F, 4.0F)
+						/*.texOffs(8, 16).addBox(-4.0F, 0.0F, -2.0F, 8.0F, 12.0F, 4.0F)*/
 				, PartPose.offset(0.0F, 4.0F, 0.0F));
 		partdefinition.addOrReplaceChild("leftArm", CubeListBuilder.create()
 						.texOffs(32, 0).addBox(-3.0F, -1.0F, -1.0F, 12.0F, 2.0F, 2.0F)
-						.texOffs(32, 8).addBox(0.0F, -2.0F, -2.0F, 6.0F, 4.0F, 4.0F)
+						/*.texOffs(32, 8).addBox(0.0F, -2.0F, -2.0F, 6.0F, 4.0F, 4.0F)*/
 				, PartPose.offset(4.0F, 6.0F, 0.0F));
 		partdefinition.addOrReplaceChild("rightArm", CubeListBuilder.create()
 						.texOffs(32, 0).addBox(-9.0F, -1.0F, -1.0F, 12.0F, 2.0F, 2.0F)
-						.texOffs(32, 16).addBox(-6.0F, -2.0F, -2.0F, 6.0F, 4.0F, 4.0F)
+						/*.texOffs(32, 16).addBox(-6.0F, -2.0F, -2.0F, 6.0F, 4.0F, 4.0F)*/
 				, PartPose.offset(-4.0F, 6.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 64);
 
