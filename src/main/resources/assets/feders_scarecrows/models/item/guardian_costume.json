@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "feders_scarecrows:item/guardian_costume"
+  }
+}

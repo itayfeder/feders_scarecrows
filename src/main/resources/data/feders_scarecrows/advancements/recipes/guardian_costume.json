@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "feders_scarecrows:guardian_costume"
+    ]
+  },
+  "criteria": {
+    "has_scarecrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "feders_scarecrows:scarecrow"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "feders_scarecrows:guardian_costume"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_scarecrow",
+      "has_the_recipe"
+    ]
+  ]
+}
