@@ -35,9 +35,9 @@ public class ItemInit {
         //register(registry.getRegistry(), WOLF_SCARECROW, "wolf_scarecrow");
         //register(registry.getRegistry(), OCELOT_SCARECROW, "ocelot_scarecrow");
         //register(registry.getRegistry(), GUARDIAN_SCARECROW, "guardian_scarecrow");
-        register(registry.getRegistry(), WOLF_COSTUME, "wolf_costume");
-        register(registry.getRegistry(), OCELOT_COSTUME, "ocelot_costume");
-        register(registry.getRegistry(), GUARDIAN_COSTUME, "guardian_costume");
+        //register(registry.getRegistry(), WOLF_COSTUME, "wolf_costume");
+        //register(registry.getRegistry(), OCELOT_COSTUME, "ocelot_costume");
+        //register(registry.getRegistry(), GUARDIAN_COSTUME, "guardian_costume");
 
     }
 }
