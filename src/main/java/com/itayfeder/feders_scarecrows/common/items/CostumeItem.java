@@ -1,7 +1,6 @@
 package com.itayfeder.feders_scarecrows.common.items;
 
-import com.itayfeder.feders_scarecrows.common.entities.Scarecrow;
-import com.itayfeder.feders_scarecrows.common.entities.ScarecrowType;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.ScarecrowType;
 import com.itayfeder.feders_scarecrows.common.items.api.ParentedItem;
 import net.minecraft.world.item.Item;
 

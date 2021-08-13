@@ -1,12 +1,9 @@
-package com.itayfeder.feders_scarecrows.common.entities;
+package com.itayfeder.feders_scarecrows.common.entities.scarecrow;
 
 import com.itayfeder.feders_scarecrows.utils.ModTags;
 import net.minecraft.tags.EntityTypeTags;
 import net.minecraft.tags.Tag;
-import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.animal.MushroomCow;
-import net.minecraft.world.level.material.MaterialColor;
 
 public enum ScarecrowType {
     DEFAULT("default", ModTags.ZOMBIES),

@@ -1,7 +1,7 @@
 package com.itayfeder.feders_scarecrows.client.model.outfits;
 
 import com.google.common.collect.ImmutableList;
-import com.itayfeder.feders_scarecrows.common.entities.TemplateScarecrow;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.TemplateScarecrow;
 import net.minecraft.client.model.AgeableListModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;

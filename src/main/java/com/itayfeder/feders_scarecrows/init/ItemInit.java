@@ -1,10 +1,9 @@
 package com.itayfeder.feders_scarecrows.init;
 
 import com.itayfeder.feders_scarecrows.FedersScarecrowsMod;
-import com.itayfeder.feders_scarecrows.common.entities.ScarecrowType;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.ScarecrowType;
 import com.itayfeder.feders_scarecrows.common.items.CostumeItem;
 import com.itayfeder.feders_scarecrows.common.items.ScarecrowItem;
-import com.itayfeder.feders_scarecrows.common.items.api.ParentedItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -35,9 +34,9 @@ public class ItemInit {
         //register(registry.getRegistry(), WOLF_SCARECROW, "wolf_scarecrow");
         //register(registry.getRegistry(), OCELOT_SCARECROW, "ocelot_scarecrow");
         //register(registry.getRegistry(), GUARDIAN_SCARECROW, "guardian_scarecrow");
-        //register(registry.getRegistry(), WOLF_COSTUME, "wolf_costume");
-        //register(registry.getRegistry(), OCELOT_COSTUME, "ocelot_costume");
-        //register(registry.getRegistry(), GUARDIAN_COSTUME, "guardian_costume");
+        register(registry.getRegistry(), WOLF_COSTUME, "wolf_costume");
+        register(registry.getRegistry(), OCELOT_COSTUME, "ocelot_costume");
+        register(registry.getRegistry(), GUARDIAN_COSTUME, "guardian_costume");
 
     }
 }

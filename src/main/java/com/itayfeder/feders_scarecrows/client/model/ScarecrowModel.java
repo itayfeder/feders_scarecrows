@@ -2,19 +2,14 @@ package com.itayfeder.feders_scarecrows.client.model;
 
 
 import com.google.common.collect.ImmutableList;
-import com.itayfeder.feders_scarecrows.common.entities.Scarecrow;
-import com.itayfeder.feders_scarecrows.common.entities.TemplateScarecrow;
-import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.TemplateScarecrow;
 import net.minecraft.client.model.AgeableListModel;
-import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.CubeListBuilder;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
-import net.minecraft.world.entity.Entity;
 
 public class ScarecrowModel<T extends TemplateScarecrow> extends AgeableListModel<T> {
 	private final ModelPart head;

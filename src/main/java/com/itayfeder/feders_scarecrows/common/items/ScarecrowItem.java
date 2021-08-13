@@ -1,11 +1,10 @@
 package com.itayfeder.feders_scarecrows.common.items;
 
-import com.itayfeder.feders_scarecrows.common.entities.Scarecrow;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.Scarecrow;
 import com.itayfeder.feders_scarecrows.common.items.api.ParentedItem;
 import com.itayfeder.feders_scarecrows.init.EntityTypeInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.Rotations;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
@@ -13,10 +12,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.animal.Pig;
-import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

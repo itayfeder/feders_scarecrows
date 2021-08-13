@@ -7,7 +7,7 @@ import com.itayfeder.feders_scarecrows.client.layer.GuardianOutfitLayer;
 import com.itayfeder.feders_scarecrows.client.layer.OcelotOutfitLayer;
 import com.itayfeder.feders_scarecrows.client.layer.WolfOutfitLayer;
 import com.itayfeder.feders_scarecrows.client.model.ScarecrowModel;
-import com.itayfeder.feders_scarecrows.common.entities.Scarecrow;
+import com.itayfeder.feders_scarecrows.common.entities.scarecrow.Scarecrow;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Vector3f;
 import net.minecraft.client.renderer.RenderType;
