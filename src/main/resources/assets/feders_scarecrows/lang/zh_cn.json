@@ -1,0 +1,19 @@
+{
+  "item.feders_scarecrows.scarecrow": "稻草人",
+  "entity.feders_scarecrows.scarecrow": "稻草人",
+
+  "item.feders_scarecrows.wolf_scarecrow": "狼稻草人",
+  "entity.feders_scarecrows.wolf_scarecrow": "狼稻草人",
+  "item.feders_scarecrows.wolf_costume": "狼外套",
+
+  "item.feders_scarecrows.ocelot_scarecrow": "豹猫稻草人",
+  "entity.feders_scarecrows.ocelot_scarecrow": "豹猫稻草人",
+  "item.feders_scarecrows.ocelot_costume": "豹猫外套",
+
+  "item.feders_scarecrows.guardian_scarecrow": "守卫者稻草人",
+  "entity.feders_scarecrows.guardian_scarecrow": "守卫者稻草人",
+  "item.feders_scarecrows.guardian_costume": "守卫者外套",
+
+  "advancements.husbandry.acquire_scarecrow.title": "可可爱爱，没有脑袋",
+  "advancements.husbandry.acquire_scarecrow.description": "获得一个稻草人"
+}
